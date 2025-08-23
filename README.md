@@ -93,11 +93,6 @@ You can easily deploy this portfolio:\
 - [Vercel](https://vercel.com) → one-click deploy\
 - [Netlify](https://www.netlify.com/) → drag & drop build folder
 
-------------------------------------------------------------------------
-
-## 📸 Preview
-
-(Add a screenshot or gif of your portfolio here)
 
 ------------------------------------------------------------------------
 
@@ -111,9 +106,9 @@ If you improve it, contributions are welcome! 🚀
 
 ## 📬 Contact
 
--   **Email:** your.email@example.com\
--   **LinkedIn:** [Your LinkedIn](https://linkedin.com/in/your-profile)\
--   **GitHub:** [Your GitHub](https://github.com/your-username)
+-   **Email:** shubhangiraundal2160@gmail.com
+-   **LinkedIn:** [Your LinkedIn](https://www.linkedin.com/in/shubhangi-raundal-721b96366/)\
+-   **GitHub:** [Your GitHub](https://github.com/shubhangi149)
 
 ------------------------------------------------------------------------
 
