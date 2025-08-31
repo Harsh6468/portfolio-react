@@ -16,7 +16,7 @@ import { useTheme } from "./utils/theme.jsx";
 export default function App() {
     const { dark, toggle } = useTheme();
 
-    // 🎉 confetti effect on first open
+    // confetti effect on first open
     useEffect(() => {
         if (!sessionStorage.getItem("burst")) {
             sessionStorage.setItem("burst", "1");

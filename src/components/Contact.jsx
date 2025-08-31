@@ -48,7 +48,7 @@ export default function Contact({ email, phone, location, emailjs_cred }) {
                 <div className="card p-8 rounded-2xl shadow-xl bg-gradient-to-br from-white/80 to-white/60 dark:from-gray-800/70 dark:to-gray-900/60 hover:shadow-2xl transition">
                     <h3 className="font-semibold text-lg mb-4">Say hello</h3>
                     <form className="space-y-4" onSubmit={sendEmail}>
-                        <input type="hidden" name="to_name" value="Shubhangi Raundal" />
+                        <input type="hidden" name="to_name" value="Harsh" />
                         <input
                             required
                             name="from_name"
@@ -70,7 +70,7 @@ export default function Contact({ email, phone, location, emailjs_cred }) {
                             className="w-full px-4 py-3 rounded-xl bg-white/70 dark:bg-white/10 border border-white/30 dark:border-white/10 outline-none"
                         />
                         <button
-                            className="btn-primary w-full"
+                            className="btn-primary bg-amber-100 dark:bg-blue-950/50 px-4 py-1 rounded-lg mx-auto block"
                             type="submit"
                             disabled={loading}
                         >
@@ -107,7 +107,7 @@ export default function Contact({ email, phone, location, emailjs_cred }) {
                     <a
                         href="/resume.pdf"
                         target="_blank"
-                        className="btn-ghost bg-amber-500 mt-2 inline-flex px-3 py-1.5 rounded-lg shadow hover:shadow-lg transition text-sm w-auto self-start"
+                        className="btn-ghost bg-amber-100 dark:bg-blue-950/50 mt-2 inline-flex px-3 py-1.5 rounded-lg shadow hover:shadow-lg transition text-sm w-auto self-start"
                     >
                         Download Resume
                     </a>

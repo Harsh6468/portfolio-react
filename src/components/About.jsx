@@ -39,7 +39,7 @@ export default function About({ about, links }) {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true, amount: 0.3 }}
                     transition={{ duration: 0.6, delay: 0.2 }}
-                    className="card p-8 bg-gradient-to-br from-sky-50 to-pink-50 dark:from-gray-800 dark:to-gray-900 shadow-lg rounded-2xl"
+                    className="card p-8 bg-gradient-to-br from-sky-50 to-pink-50 dark:from-gray-800/80 dark:to-gray-900/70 shadow-lg rounded-2xl"
                 >
                     <h3 className="text-xl font-semibold flex items-center gap-2">
                         <Sparkles className="w-5 h-5 text-yellow-500" />
