@@ -6,7 +6,7 @@ export const PROFILE = {
     location: "Silao, Bihar",
     email: "harsh.bhumca21@gmail.com",
     phone: "+91-7250256095",
-    photo: "/Dp.png",
+    photo: "/dp.png",
     links: {
         github: "https://github.com/harsh6468",
         linkedin: "https://www.linkedin.com/in/harsh-9119422a8/",
