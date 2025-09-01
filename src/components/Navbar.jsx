@@ -1,23 +1,23 @@
-import { Moon, Sun, Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 import { PROFILE } from "../constants";
 
-export default function Navbar({ onToggleTheme, isDark }) {
-    const links = PROFILE.links
-    const email = PROFILE.email
+export default function Navbar() {
+    const links = PROFILE.links;
+    const email = PROFILE.email;
+
     return (
-        <header className="px-4 top-0 z-50 backdrop-blur-md bg-white dark:bg-black/5 border-b border-gray-100 dark:border-gray-800">
+        <header className="px-4 top-0 z-50 backdrop-blur-md bg-white/70 dark:bg-black/30 border-b border-gray-100 dark:border-gray-800 sticky">
             <nav className="container-section flex items-center justify-between h-16">
                 {/* Brand / Logo */}
-                <a href="" className="font-extrabold tracking-tight text-xl sm:text-2xl">
+                <a href="#" className="font-extrabold tracking-tight text-xl sm:text-2xl">
                     <span className="inline-flex items-center gap-1">
                         <span className="bg-gradient-to-tr from-pink-500 to-yellow-500 bg-clip-text text-transparent font-extrabold">
                             Portfolio
                         </span>
                     </span>
-
                 </a>
 
-                {/* Links (hidden on mobile) */}
+                {/* Navigation links */}
                 <div className="hidden md:flex items-center gap-6 text-sm font-medium">
                     <a href="#about" className="hover:text-sky-600 dark:hover:text-sky-400 transition">About</a>
                     <a href="#skills" className="hover:text-sky-600 dark:hover:text-sky-400 transition">Skills</a>
@@ -27,8 +27,8 @@ export default function Navbar({ onToggleTheme, isDark }) {
                     <a href="#contact" className="hover:text-sky-600 dark:hover:text-sky-400 transition">Contact</a>
                 </div>
 
-                {/* Right side buttons */}
-                <div className="flex items-center gap-2 sm:gap-3">
+                {/* Social links */}
+                <div className="flex items-center gap-3">
                     <a
                         href={links.github}
                         target="_blank"
@@ -48,18 +48,6 @@ export default function Navbar({ onToggleTheme, isDark }) {
                         <Linkedin size={18} />
                         <span className="hidden sm:inline">LinkedIn</span>
                     </a>
-
-                    <div className="sticky top-4 left-0">
-                        <button
-                            onClick={onToggleTheme}
-                            aria-label="Toggle theme"
-                            className="px-4 py-2 text-base font-medium rounded-lg border border-transparent 
-                        bg-black text-white hover:border-indigo-400 
-                        dark:bg-white dark:text-neutral-900 transition-colors duration-200"
-                        >
-                            {isDark ? <Sun size={18} /> : <Moon size={18} />}
-                        </button>
-                    </div>
 
                 </div>
             </nav>

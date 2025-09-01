@@ -35,7 +35,7 @@ export default function Contact({ email, phone, location, emailjs_cred }) {
     return (
         <section id="contact" className="container-section px-5 sm:px-10 py-20 sm:py-28">
             <div className="text-center mb-12">
-                <h2 className="text-3xl font-bold tracking-tight bg-gradient-to-r from-sky-500 to-fuchsia-500 bg-clip-text text-transparent">
+                <h2 className="text-3xl font-bold tracking-tight bg-gradient-to-r bg-clip-text">
                     ✉️ Contact
                 </h2>
                 <p className="mt-3 text-gray-600 dark:text-gray-400 text-sm">
