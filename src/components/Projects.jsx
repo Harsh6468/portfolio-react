@@ -13,11 +13,8 @@ export default function Projects({ projects }) {
         <section id="projects" className="container-section px-5 sm:px-10 py-20 sm:py-28">
             <div className="text-center mb-12">
                 <h2 className="text-3xl font-bold tracking-tight bg-gradient-to-r bg-clip-text">
-                    🚀 Projects
+                    Projects
                 </h2>
-                <p className="mt-3 text-gray-600 dark:text-gray-400 text-sm">
-                    A few projects I have worked on recently
-                </p>
             </div>
 
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">

@@ -1,16 +1,24 @@
 export const PROFILE = {
     name: "Harsh",
-    tag: "Machine Learning Engineer • Job aspiring",
+    tag: "Machine Learning Engineer",
     about:
         "Dynamic and results-oriented Python developer with over 1 year of experience in web automation and API development. Proven track record of delivering automated data scraping workflows and built APIs. Skilled in Python, Selenium, Fast API, SQL, React, MongoDB. Seeking to leverage expertise in building efficient backend systems and automation tools to contribute to a dynamic team building modern, scalable backend systems.",
-    location: "Silao, Bihar",
-    email: "harsh.bhumca21@gmail.com",
-    phone: "+91-7250256095",
     photo: "/dp.png",
-    links: {
-        github: "https://github.com/harsh6468",
-        linkedin: "https://www.linkedin.com/in/harsh-9119422a8/",
-        resume: "/resume.pdf",
+    contactInfo: {
+        location: { icon: "fa fa-map-marker", text: "Silao, Bihar, India" },
+        phone: { icon: "fa fa-phone", text: "+91 725 025 6095" },
+        email: { icon: "fa fa-envelope", text: "harsh.bhumca21@gmail.com" },
+    },
+    quickLinks: [
+        { name: "About Me", href: "#about" },
+        { name: "Skills", href: "#skills" },
+        { name: "Projects", href: "#projects" },
+        { name: "Resume", href: "/resume.pdf" },
+    ],
+    social_media_links:{
+        LinkedIn: { url: "https://www.linkedin.com/in/harsh-9119422a8/", icon: "fa fa-linkedin" },
+        GitHub: { url: "https://github.com/Harsh6468", icon: "fa fa-github" },
+        Resume: { url: "/resume.pdf", icon: "fa fa-file" },
     },
     emailjs_cred:{
         SERVICE_ID: import.meta.env.VITE_SERVICE_ID,

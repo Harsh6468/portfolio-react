@@ -35,7 +35,6 @@ export default function App() {
             let i = 0;
             const id = setInterval(() => {
                 if (i++ > 12) return clearInterval(id);
-                console.log("celebrate", emojis[i % emojis.length]);
             }, 120);
         }
     }, []);
@@ -52,20 +51,15 @@ export default function App() {
             <div className="sticky top-0 left-0">
                 <Navbar onToggleTheme={toggle} isDark={dark} />
                 <main>
-                    <Hero name={PROFILE.name} tag={PROFILE.tag} location={PROFILE.location} photo={PROFILE.photo} />
-                    <About about={PROFILE.about} links={PROFILE.links} />
+                    <Hero data={PROFILE} />
+                    <About about={PROFILE.about} links={PROFILE.social_media_links.Resume.url} />
                     <Skills skills={PROFILE.skills} />
                     <Projects projects={PROFILE.projects} />
                     <Education education={PROFILE.education} />
                     <Experience experiences={PROFILE.experiences} />
-                    <Contact
-                        email={PROFILE.email}
-                        phone={PROFILE.phone}
-                        location={PROFILE.location}
-                        emailjs_cred={PROFILE.emailjs_cred}
-                    />
+                    <Contact data={PROFILE}/>
                 </main>
-                <Footer />
+                <Footer data={PROFILE}/>
             </div>
 
             {/* Floating Buttons */}
