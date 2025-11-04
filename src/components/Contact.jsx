@@ -170,7 +170,7 @@ export default function Contact({ data }) {
                                     Get my complete professional profile
                                 </p>
                                 <a
-                                    href="/resume.pdf"
+                                    href={data.social_media_links.Resume.url}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-amber-100 dark:bg-blue-950/50 hover:bg-amber-200 dark:hover:bg-blue-900/60 text-gray-900 dark:text-white font-medium transition-all duration-200 shadow-lg hover:shadow-xl hover:translate-y-[-2px]"

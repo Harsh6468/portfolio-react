@@ -13,12 +13,12 @@ export const PROFILE = {
         { name: "About Me", href: "#about" },
         { name: "Skills", href: "#skills" },
         { name: "Projects", href: "#projects" },
-        { name: "Resume", href: "/resume.pdf" },
+        { name: "Resume", href: "/harsh_resume.pdf" },
     ],
     social_media_links: {
         LinkedIn: { url: "https://www.linkedin.com/in/harsh-9119422a8/", icon: "fa fa-linkedin" },
         GitHub: { url: "https://github.com/Harsh6468", icon: "fa fa-github" },
-        Resume: { url: "/resume.pdf", icon: "fa fa-file" },
+        Resume: { url: "/harsh_resume", icon: "fa fa-file" },
     },
     emailjs_cred: {
         SERVICE_ID: import.meta.env.VITE_SERVICE_ID,
