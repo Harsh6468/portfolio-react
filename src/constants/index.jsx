@@ -18,7 +18,7 @@ export const PROFILE = {
     social_media_links: {
         LinkedIn: { url: "https://www.linkedin.com/in/harsh-9119422a8/", icon: "fa fa-linkedin" },
         GitHub: { url: "https://github.com/Harsh6468", icon: "fa fa-github" },
-        Resume: { url: "/harsh_resume", icon: "fa fa-file" },
+        Resume: { url: "/harsh_resume.pdf", icon: "fa fa-file" },
     },
     emailjs_cred: {
         SERVICE_ID: import.meta.env.VITE_SERVICE_ID,
