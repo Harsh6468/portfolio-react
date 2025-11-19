@@ -5,6 +5,7 @@ import About from "./components/About.jsx";
 import Skills from "./components/Skills.jsx";
 import Projects from "./components/Projects.jsx";
 import Education from "./components/Education.jsx";
+import Certificate from "./components/Certificate.jsx";
 import Experience from "./components/Experience.jsx";
 import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
@@ -55,6 +56,7 @@ export default function App() {
                     <About about={PROFILE.about} links={PROFILE.social_media_links.Resume.url} />
                     <Skills skills={PROFILE.skills} />
                     <Projects projects={PROFILE.projects} />
+                    <Certificate certificates={PROFILE.certificates} />
                     <Education education={PROFILE.education} />
                     <Experience experiences={PROFILE.experiences} />
                     <Contact data={PROFILE}/>

@@ -4,6 +4,7 @@ export const PROFILE = {
     about:
         "Dynamic and results-oriented Python developer with over 1 year of experience in web automation and API development. Proven track record of delivering automated data scraping workflows and built APIs. Skilled in Python, Selenium, Fast API, SQL, React, MongoDB. Seeking to leverage expertise in building efficient backend systems and automation tools to contribute to a dynamic team building modern, scalable backend systems.",
     photo: "/dp.png",
+    bg_gradient: "bg-gradient-to-tr from-pink-500 to-yellow-500",
     contactInfo: {
         location: { icon: "fa fa-map-marker", text: "Silao, Bihar, India" },
         phone: { icon: "fa fa-phone", text: "+91 725 025 6095" },
@@ -33,6 +34,7 @@ export const PROFILE = {
         "PyTorch",
         "Python",
         "Flask",
+        "Power BI",
         "Pandas",
         "Numpy",
         "FastAPI",
@@ -156,6 +158,44 @@ export const PROFILE = {
                 "Built simple APIs and learned backend development with FastAPI. ",
                 "Researched Google Analytics, Facebook Ads, and Instagram Ads for integration planning."
             ]
+        },
+    ],
+    certificates: [
+        {
+            title: "Data Science With Generative AI Certificate",
+            image: "Data Science With Generative AI Certificate.png",
+            issuer: "PHYSICS WALLAH",
+            certLink: "https://drive.google.com/file/d/1KmLw657ySnhwXJgov97C3kLdLRcm5IMQ/view?usp=drive_link"
+        },
+        {
+            title: "Data Science for Engineers",
+            image: "Data Science for Engineers.jpeg",
+            issuer: "NPTEL",
+            certLink: "https://drive.google.com/file/d/1tOzcbflNE4k9Kz5wXbB03cES-yt5xEz5/view?usp=drive_link"
+        },
+        {
+            title: "Natural Language Processing",
+            image: "Natural Language Processing.jpeg",
+            issuer: "NPTEL",
+            certLink: "https://drive.google.com/file/d/1tQ0doEfZtojDaobJHXoKfJtopFzbrr-X/view?usp=drive_link"
+        },
+        {
+            title: "The Joy of Computing using Python",
+            image: "The Joy of Computing using Python.jpeg",
+            issuer: "NPTEL",
+            certLink: "https://drive.google.com/file/d/1bvcCoEi_6ejWiYWC4g5pCFGh6gFwHjMS/view?usp=drive_link"
+        },
+        {
+            title: "Problem Solving Through Programming In C",
+            image: "Problem Solving Through Programming In C.jpeg",
+            issuer: "NPTEL",
+            certLink: "https://drive.google.com/file/d/1KofN7zT5GGsZHXhsiPn3IcHPW1ZVZfsG/view?usp=drive_link"
+        },
+        {
+            title: "Internship Certificate",
+            image: "Internship_certificate_harsh.jpg",
+            issuer: "Ocius Technologies LLP",
+            certLink: "https://drive.google.com/file/d/1rqrR3w8pp5ENIw9xGEpLl0NOZhcLU0Wj/view?usp=drive_link"
         },
     ]
 };

@@ -152,7 +152,7 @@ export default function Footer({ data }) {
                 transition={{ delay: 1.2, duration: 0.8 }}
             >
                 © {new Date().getFullYear()}{" "}
-                <span className="font-semibold bg-gradient-to-tr from-pink-500 to-yellow-500 bg-clip-text text-transparent animate-gradient">
+                <span className={`${data.bg_gradient} font-semibold bg-clip-text text-transparent animate-gradient`}>
                     {name}
                 </span>{" "}
                 — Built with React, Vite & Tailwind

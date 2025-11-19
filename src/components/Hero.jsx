@@ -1,10 +1,11 @@
 import { motion } from "framer-motion";
 
 export default function Hero({ data }) {
-    const name = data.name
-    const tag = data.tag
-    const location = data.contactInfo.location.text
-    const photo = data.photo
+    const name = data.name;
+    const tag = data.tag;
+    const location = data.contactInfo.location.text;
+    const photo = data.photo;
+
     return (
         <section
             className="relative overflow-hidden"
@@ -27,8 +28,16 @@ export default function Hero({ data }) {
                             <img
                                 src={photo}
                                 alt={`${name} photo`}
-                                className="w-full h-full object-cover"
+                                className="w-full h-full object-cover pointer-events-none select-none"
+                                draggable={false}
                             />
+
+                            {/* Anti-copy overlay */}
+                            <div
+                                className="absolute inset-0 z-20 bg-transparent"
+                                onContextMenu={(e) => e.preventDefault()}
+                                draggable={false}
+                            ></div>
                         </div>
                     </div>
 
@@ -41,7 +50,7 @@ export default function Hero({ data }) {
                     {/* Name */}
                     <h1 className="mt-6 text-4xl sm:text-5xl font-extrabold font-display tracking-tight">
                         Hi, I’m{" "}
-                        <span className="text-transparent bg-clip-text bg-gradient-to-tr from-sky-500 via-fuchsia-500 to-pink-500">
+                        <span className={`${data.bg_gradient} text-transparent bg-clip-text`}>
                             {name}
                         </span>
                     </h1>
